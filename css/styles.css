@@ -57,9 +57,10 @@
     margin-bottom: 20px;
 }
 
-#bio-container #welcome-test {
+#bio-container #welcome-text {
     font-weight: bold;
 }
+
 #bio-image {
     width: 175px;
     height: 175px;
@@ -192,6 +193,11 @@
     margin-right: 10px;
 }
 
+.skills-box img {
+    width: 60px;
+    height: 60px;
+}
+
 /* Mobile */
 @media(max-width: 450px) {
 
@@ -239,4 +245,10 @@
     .skills-box i {
         font-size: 60px;
     }
+
+    .skills-box img {
+        width: 80px;
+        height: 80px;
+    }
+    
 }
